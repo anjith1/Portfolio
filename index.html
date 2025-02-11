@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="home-content">
+            <h1>K ANJITH GOUD</h1>
+           
+            <p>A passionate IT student eager to innovate and learn.</p>
+            <p>I am a undergraduate student studying in Vasavi College of Engineering </p>
+            <div class="buttons">
+                <a href="https://linkedin.com/in/anjith-goud-koyyada-696157330/" class="btn" target="_blank">LinkedIn</a>
+                <a href="https://github.com/anjith1" class="btn" target="_blank">GitHub</a>
+            </div>
+        </div>
+        <div class="home-image">
+            <img style="border-radius: 50%;" src="p1.jpg" alt="Your Photo">
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p style="font-size: 20px;line-height: 1.5;">I am a passionate Information Technology student with a strong interest in web development,solve real world problems, automation, and embedded systems. I have experience working on projects related to Web development,automation, DBMS, and hardware integrations using arduino and IOT. I am eager to apply my skills in a real-world environment through an internship opportunity.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Programming: Java, Python,C, C++</li>
+            <li>Web Technologies: HTML, CSS, JavaScript, React</li>
+            <li>IT Constructs: DBMS, OOPS</li>
+            <li>Embedded Systems: Arduino, Sensors</li>
+        </ul>
+    </section>
+
+    <section id="education" style="background: #f2f2f2; color: white; padding: 20px; text-align: center; border-radius: 10px; width: 80%; margin: auto;">
+        <h2 style="color: #ffcc00;">Education</h2>
+    
+        <!-- Schooling -->
+        <div style="margin-bottom: 15px;">
+            <p><strong>School:</strong> Slate High School, Jannaram</p>
+            <button onclick="toggleDetails('schoolDetails')" style="background: #ff5722; color: white; border: none; padding: 8px; cursor: pointer;">See More</button>
+            <div id="schoolDetails" style="display: none; transition: all 0.5s ease;">
+                <p>GPA: 10</p>
+                <p>Extra Activities: <strong>Atal Tinkering Lab Projects</strong> – Built innovative prototypes using Arduino, sensors, and IoT technologies with c++ programming language.Isard Science Fair Winner</p>
+            </div>
+        </div>
+    
+        <!-- Intermediate -->
+        <div style="margin-bottom: 15px;">
+            <p><strong>Intermediate:</strong> Narayana Junior College, Hayathnagar</p>
+            <button onclick="toggleDetails('interDetails')" style="background: #ff5722; color: white; border: none; padding: 8px; cursor: pointer;">See More</button>
+            <div id="interDetails" style="display: none; transition: all 0.5s ease;">
+                <p>Percentage:96.8%</p>
+               
+            </div>
+        </div>
+    
+        <!-- BE -->
+        <div style="margin-bottom: 15px;">
+            <p>BE:<strong>Vasavi College of Engineering</strong> </p>
+            <button onclick="toggleDetails('beDetails')" style="background: #ff5722; color: white; border: none; padding: 8px; cursor: pointer;">See More</button>
+            <div id="beDetails" style="display: none; transition: all 0.5s ease;">
+                <p>GPA: 8.57</p>
+                <p>Extra Activities: Hackathons, Web Development Projects,Python GUI projects</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-slider">
+            <div class="project">
+                <img src="project1/pro1-homepage.png" alt="Project 1">
+                <p>Project 1 Description</p>
+            </div>
+            <div class="project">
+                <img src="project1/pro1-mesnger.png" alt="Project 2">
+                <p>Project 2 Description</p>
+            </div>
+            <div class="project">
+                <img src="project1/pro1-qrcode.png" alt="Project 3">
+                <p>Project 3 Description</p>
+            </div>
+            <div class="project">
+                <img src="project1/pro1-translator.png" alt="Project 1">
+                <p>Project 1 Description</p>
+            </div>
+            <div class="project">
+                <img src="project1/pro1-enhacesearchengine.png" alt="Project 2">
+                <p>Project 2 Description</p>
+            </div>
+            <div class="project">
+                <img src="project1/pro1-enhancephotoengine.png" alt="Project 3">
+                <p>Project 3 Description</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: anjithgoud3456@gmail.com</p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/anjith-goud-koyyada-696157330/" target="_blank">linkedin.com/in/anjith-goud-koyyada</a></p>
+        <p>GitHub: <a href="https://github.com/anjith1" target="_blank">github.com/anjith1</a></p>
+    </section>
+
+    <footer>
+        <p>© 2025 ANJITH. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
